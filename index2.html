@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a2f83b290.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+                                                <!--header-->
+    <div class="header">
+      <nav>
+        <a href="index.hnml"><img src="eduford_img/logo.png"></a>
+
+      <div id="navLinks"class="nav-links">
+        <i  id="xmark" class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index2.html">HOME</a></li>
+          <li><a href="about2.html">ABOUT</a></li>
+          <li><a href="course2.html">COURSE</a></li>
+          <li><a href="blog2.html">BLOG</a></li>
+          <li><a href="contact2.html">CONTACT</a></li>
+        </ul>
+      </div>
+      
+        <i id="menubar"class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <div class="title">
+          World's biggest university
+        </div>
+        <div class="suptitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="button">
+          <a class="hero-btn"href="#">Visit us to know more</a>
+        </div>
+      </div>
+    </div>
+
+                                  <!-- JAVA-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+       }
+        function hideMenu(){
+          navLinks.style.right = "-300px";
+      }
+    </script>
+
+
+                                              <!--course-->
+      <div class="course">
+        <div class="couse-title">
+           <h1>Course we offer</h1>
+        </div>
+          <div class="course-suptitle">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+          <div  class="row">
+            <div class="course-col">
+              <h3>Intermediate</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="course-col">
+              <h3>Degree</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="course-col">
+              <h3>Post-Graduation</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+      </div>
+
+                                                  <!--campus-->
+      <div class="campus">
+        <h1>Our global campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row">
+
+          <div class="campus-col">
+            <img src="eduford_img/london.png" alt="">
+            <div class="layer">
+              <h3>London</h3>
+            </div>
+          </div>
+
+          <div class="campus-col">
+            <img src="eduford_img/newyork.png" alt="">
+            <div class="layer">
+              <h3>New-York</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="eduford_img/washington.png" alt="">
+            <div class="layer">
+              <h3>Washington</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+                                        <!-- facilities-->
+      <div class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row">
+          <div class="facilities-col">
+            <img src="eduford_img/library.png" alt="">
+            <h3>World class library</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="eduford_img/basketball.png" alt="">
+          <h3>Largest play ground</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="eduford_img/cafeteria.png" alt="">
+        <h3>Tasty and healthy food</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+      </div>
+    </div>
+                                                <!--comment-->
+    <div class="testimonials">
+      <h1>What our students say</h1>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="eduford_img/user1.jpg" alt="">
+          <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          <h3>Christina Berkley</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="testimonial-col">
+          <img src="eduford_img/user2.jpg" alt="">
+          <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <h3>David buyer</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </div>
+                                    <!-- little picture-->
+    <div class="cta">
+      <h1>Enroll for our online courses<br> anywhere from the planet</h1>
+      <a class="hero-btn"href="#">CONTACT US</a>
+    </div>
+                                    <!--footer-->
+
+    <div class="footer">
+      <h4>About us</h4>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made with<i class="fa-regular fa-heart"></i>by Toraliev Ulukbek</p>
+    </div>
+  </body>
+</html>

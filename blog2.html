@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a2f83b290.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+                                                <!--header-->
+    <div class="sub-header">
+      <nav>
+        <a href="index.hnml"><img src="eduford_img/logo.png"></a>
+      <div id="navLinks"class="nav-links">
+        <i  id="xmark" class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index2.html">HOME</a></li>
+          <li><a href="about2.html">ABOUT</a></li>
+          <li><a href="course2.html">COURSE</a></li>
+          <li><a href="blog2.html">BLOG</a></li>
+          <li><a href="contact2.html">CONTACT</a></li>
+        </ul>
+      </div>
+        <i id="menubar"class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2022</h1>
+    </div>
+    <!--- blog content---->
+    <div class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="eduford_img/certificate.jpg" alt="">
+          <h2>Our Certificate & Online Programs for 2022</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+             <br>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                   <div class="comment-box">
+                      <h3>Leave a comment</h3>
+                      <form class="comment-form">
+                          <input type="text"placeholder="Enter name">
+                          <input type="text"placeholder="Enter @mail">
+                          <textarea rows="5" placeholder="Your coment"></textarea>
+                          <button type="submit" class="hero-btn red-btn"name="button">POST COMMENT</button>
+                      </form>
+                   </div>
+        </div>
+
+        <div class="blog-right">
+          <h3>Post Graduate</h3>
+          <div class="">
+              <span>Business Analytics</span>
+              <span>21</span>
+          </div>
+          <div class="">
+              <span>Data scince</span>
+              <span>15</span>
+          </div>
+          <div class="">
+              <span>Economic</span>
+              <span>20</span>
+          </div>
+          <div class="">
+              <span>IT Tecnology</span>
+              <span>17</span>
+          </div>
+          <div class="">
+              <span>Language Aspect</span>
+              <span>14</span>
+          </div>
+          <div class="">
+              <span>Computer science</span>
+              <span>25</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+       }
+        function hideMenu(){
+          navLinks.style.right = "-300px";
+      }
+    </script>
+
+
+
+    <div class="footer">
+      <h4>About us</h4>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made with<i class="fa-regular fa-heart"></i>by Toraliev Ulukbek</p>
+    </div>
+    </body>
+  </html>
